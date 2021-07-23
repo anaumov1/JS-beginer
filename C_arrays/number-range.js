@@ -2,7 +2,15 @@
 // `max`, and `step`. The function should return all numbers between `min` and `max` at `step` intervals.
 // `min` and `max` are inclusive.
 
-
+let numberRange = function (min, max, step) {
+    let range = [];
+  
+    for (let i = min; i <= max; i += step) {
+        range.push (i);
+    }
+    
+    return range;
+  }
 
 
 
